@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import HeaderSection from './components/HeaderSelection';
+import Navbar from './components/NavigationBar';
+import HeroSection from './components/HeroSection';
+import About from './components/AboutUs';
+import SIRE from './components/S.I.R.E';
+import Features from './components/S.I.R.E-Features';
+import Whysire from './components/WhySire';
+import Choose from './components/Choose';
+import Connect from './components/ConnectSun';
+import Frequently from './components/Frequently';
+import Contactform from './components/Contact';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <HeaderSection />
+        <Navbar />
+        <HeroSection />
+        <About />
+        <SIRE />
+        <Features />
+        <Whysire />
+        <Choose />
+        <Connect />
+        <Frequently />
+        <Contactform />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
