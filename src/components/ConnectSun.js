@@ -6,7 +6,7 @@ import setting from '../icons/setting.png';
 
 const Connect = () => {
     return (
-        <div className="connect">
+        <div id="connect" className="connect">
             <div className="heading">
                 <h1>Connettiti al sole anche tu</h1>
                 <hr />

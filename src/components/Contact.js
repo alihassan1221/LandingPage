@@ -5,7 +5,7 @@ import location from '../icons/location.png';
 
 const Contactform = () => {
     return (
-        <div className="contact container">
+        <div id="contact" className="contact container">
             <div className="heading">
                 <h2>CONTATTACI</h2>
                 <hr />

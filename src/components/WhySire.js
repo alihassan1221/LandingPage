@@ -9,7 +9,7 @@ import leave from '../icons/leave.png';
 
 const Whysire = () => {
     return (
-        <div className="mainsire">
+        <div id="whysire" className="mainsire">
             <div className="whysire container">
                 <div className="heading">
                     <h1>Perchè S.I.R.E.</h1>

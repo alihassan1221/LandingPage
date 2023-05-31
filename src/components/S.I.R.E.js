@@ -5,7 +5,7 @@ import imagebelow from '../images/imagebelow.png';
 
 const SIRE = () => {
     return (
-        <div className="sire container">
+        <div id="sire" className="sire container">
           <div className="horizontal">  
             <div className="images">
                 <img src={image1} alt="Elispe shape" />

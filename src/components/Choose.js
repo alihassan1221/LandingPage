@@ -8,7 +8,7 @@ import Ellipse from '../icons/Ellipse.png';
 
 const Choose = () => {
     return (
-        <div className="choose container">
+        <div id="choose" className="choose container">
             <div className="heading">
                 <h1>Scegli il tuo SIRE</h1>
                 <hr />

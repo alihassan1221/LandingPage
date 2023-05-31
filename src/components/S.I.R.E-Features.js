@@ -9,7 +9,7 @@ import meter from '../icons/meter.png';
 
 const Features = () => {
     return (
-        <div className="features">
+        <div id="features" className="features">
             <div className="heading">
                 <h1>Connesso, Intelligente, Resistente</h1>
                 <hr />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './myScript.js';
 import HeaderSection from './components/HeaderSelection';
 import Navbar from './components/NavigationBar';
 import HeroSection from './components/HeroSection';

@@ -8,7 +8,7 @@ import phone from '../icons/whitephone.png';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div id="footer" className="footer">
                 <div className="footer-start">
                     <div className="space-around container">
                         <div className="subscribe">

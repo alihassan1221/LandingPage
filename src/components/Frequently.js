@@ -4,7 +4,7 @@ import plus from '../icons/plus.png';
 
 const Frequently = () => {
     return (
-        <div className="FAQs container">
+        <div id="faqs" className="FAQs container">
             <div className="heading">
                 <h2>Frequently Asked Questions</h2>
                 <hr />
